@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// arquivos de imagem vc usa o from, arquivos css chama sem
+import Header from './components/Header'
+import MainMenu from './components/MainMenu'
 
-function App() {
+const App = () => {
   return (
-    //JSX (Class em js é feita pra criar classes | className é css)
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello <b>World</b> React
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <MainMenu />
+    </>
+  )
 }
 
-export default App;
+export default App
