@@ -1,14 +1,16 @@
-const MainMenu = () => { 
+import Box from '@mui/material/Box'
+
+const MainMenu = () => {
     return (
-        <nav style={styles.nav}>
-            <ul style={styles.ulMenu}>menu...</ul>
-        </nav>
+        <Box component="nav" sx={styles.nav}>
+            <ul style={styles.ulMenu}>Menu</ul>
+        </Box>
     )
 }
 
 const styles = {
     nav: {
-        background: '#555',
+        background: '#1C6E8C',
         color: '#000',
         padding: '20px',
         marginTop: '5px'
