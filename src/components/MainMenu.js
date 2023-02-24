@@ -1,9 +1,10 @@
 import Box from '@mui/material/Box'
 
 const MainMenu = () => {
+    const { nav, ulMenu } = styles
     return (
-        <Box component="nav" sx={styles.nav}>
-            <ul style={styles.ulMenu}>Menu</ul>
+        <Box component="nav" sx={nav}>
+            <ul style={ulMenu}>Menu</ul>
         </Box>
     )
 }
