@@ -4,7 +4,7 @@ const Content = () => {
   return (
     <Box sx={{
       background: "#ADEEE3",
-      width: 800
+      width: "100%"
     }}>
       <h2>Content</h2>
     </Box>

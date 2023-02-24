@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <Box sx={{
       background: "#50723C",
+      height: 150
     }}>
       <h2>Footer</h2>
     </Box>
