@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
+    // fragmento do react (sem irmãos no primeiro nivel)
     <>
       <Header />
       <MainMenu />
