@@ -16,6 +16,7 @@ const Sidebar = () => {
       width: 200,
       height: 500
     }}>
+      {/* jeito mais fácil de se importar */}
       <h2>Sidebar</h2>
       <img
         style={{ width: 200 }}
@@ -23,12 +24,14 @@ const Sidebar = () => {
 
       <hr />
 
+      {/* com a foto importada no diretório */}
       <img
         style={{ width: 200 }}
         src={fotoTartaruga} alt='2'></img>
 
       <hr />
 
+      {/* importando o svg e alterando */}
       <IconPuzzle
         style={{
           width: 40,
