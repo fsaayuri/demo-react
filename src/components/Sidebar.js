@@ -13,8 +13,7 @@ const Sidebar = () => {
   return (
     <Box sx={{
       background: "#DDD",
-      width: 200,
-      height: 500
+      height: 700
     }}>
       {/* jeito mais fácil de se importar */}
       <h2>Sidebar</h2>

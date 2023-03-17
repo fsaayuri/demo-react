@@ -1,13 +1,13 @@
 import Box from '@mui/material/Box'
 import Alert from './Alert'
+import SampleUseState from './SampleUseState';
 
 const Content = () => {
 
   return (
     <Box sx={{
       background: "#EEE",
-      width: 500,
-      height: 500,
+      width: "100%",
       padding: '15px'
     }}>
       <h1>Content</h1>
@@ -28,6 +28,7 @@ const Content = () => {
         Warning!
       </Alert>
 
+      <SampleUseState></SampleUseState>
     </Box>
   )
 }
