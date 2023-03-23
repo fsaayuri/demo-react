@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css'; 
 // é um css padrão aplicado que terá a mesma configuração em todas as pastas
+import { BrowserRouter } from 'react-router-dom'
 import App from './App';
 // a extensão final não é necessária | cada componente começa com maiúsculo
 
@@ -11,7 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <React.StrictMode>
     {/* Tem uma importação do arquivo <App/> mas dentro do index.js ele vira uma função, chama como se fosse uma tag html */}
-    <App />
+    <BrowserRouter>
+      <App />
+      </BrowserRouter>
   </React.StrictMode>
   // força o desenvolvidor não esquecer algumas coisas (Carrega duas vezes como um refresh duplo antes de fazer qualquer mudança) | Todo componente no react tem um ciclo de vida (começa aparece carrega todo) depois que vc muda de página, algumas ações tem que tomar cuidado 
 );
