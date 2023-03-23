@@ -13,7 +13,7 @@ const Content = () => {
       <h1>Content</h1>
 
       <Alert type="success" >
-        Deu certo!
+        Deu certo Amem!
       </Alert>
 
       <Alert type="error">
